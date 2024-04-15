@@ -1,6 +1,13 @@
 # Reset-Package-Caches-script
 This script is used to enhance the "Reset package caches" functionality by closing and reopening the Xcode
 
+## Table of contents
+  * [Usecase](#usecase)
+  * [Initial Setup](#initial-setup)
+  * [Usage](#usage)
+  * [Moving Forward](#moving-forward)
+
+## Usecase
 Common scenarios where it can be usefull:
 
 • Your project fails to resolve packages after you switch branch with Xcode open 
@@ -32,4 +39,5 @@ git clone git@github.com:amarkotic/Reset-Package-Caches-script.git
 ![terminal-output](https://github.com/amarkotic/Reset-Package-Caches-script/assets/40775323/2844e853-2a62-454d-8416-ce0db695be28)
 
 
-## Congrats! Your script for automated reset of package caches is ready to be used.
+## Moving Forward
+**Congrats!** Your script for automated reset of package caches is ready to be used. Simply open terminal and run ./reset-package-caches.sh whenever you want to resolve your packages without having to think if Xcode is interfering with the process.
